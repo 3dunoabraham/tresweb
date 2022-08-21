@@ -144,7 +144,7 @@ body {
 .active-section .section-title {
 	opacity: 1;
 }
-.summary {
+.resumen {
 	border-top: 5px solid var(--light-blue);
 	font-size: 30px;
 	padding: 75px 10vw;
@@ -155,7 +155,7 @@ body {
 	clip-path: polygon(0 0, 100% 0, 100% 100%, 33% 95%, 0 100%);
 }
 
-.summary section {
+.resumen section {
 	position: relative;
 	display: flex;
 	justify-content: center;
@@ -174,7 +174,7 @@ body {
 	transform: translateX(25%);
 	opacity: 0;
 }
-.summary section:nth-child(even) {
+.resumen section:nth-child(even) {
 	border-radius: 0 5px 100px 0;
 	background: linear-gradient(to right, var(--dark-blue), var(--light-blue));
 	transform: translateX(-25%);
@@ -182,35 +182,35 @@ body {
 	border-right: 1px solid var(--orange-dark);
 	border-left: 0px solid var(--orange-dark);
 }
-.summary.active-section section {
+.resumen.active-section section {
 	transform: translateX(0);
 	opacity: 1;
 }
-.summary .section-title {
+.resumen .section-title {
 	/*margin: 0 auto;*/
 }
 
-.summary section * {
+.resumen section * {
 	transition: all .3s ease-in-out;
 }
-.summary section.touch-active ,
-.summary section:hover {
+.resumen section.touch-active ,
+.resumen section:hover {
 	border-color: var(--orange)
 	/*box-shadow: 0 40px 20px -40px #000000;*/
 }
-.summary section.touch-active img ,
-.summary section:hover img {
+.resumen section.touch-active img ,
+.resumen section:hover img {
 	opacity: .8;
 }
-.summary section.touch-active b ,
-.summary section:hover b {
+.resumen section.touch-active b ,
+.resumen section:hover b {
 	color: var(--orange);
 	text-shadow: 0 0 5px var(--orange-strong);
 }
-.summary section p {
+.resumen section p {
 	flex: 1;
 }
-.summary section img {
+.resumen section img {
 	padding: 20px 50px;
 	/*filter: invert(1);*/
 	opacity: .25;
@@ -220,18 +220,18 @@ body {
 
 @media (max-width: 992px)
 {
-	.summary h1 {
+	.resumen h1 {
 		height: unset;
 	}
-	.summary {
+	.resumen {
 		font-size: 20px;
 	}
-	.summary section {
+	.resumen section {
 		flex-direction: column;
 		margin-bottom: 25px;		
 		padding-top: 15px
 	}
-	.summary section img {
+	.resumen section img {
 		left: 10%;
 		width: 80%;
 		height: auto;
@@ -239,21 +239,21 @@ body {
 }
 @media (max-width: 992px)
 {
-	.summary {
+	.resumen {
 		padding: 25px 10vw;
 		padding-bottom: 125px;
 
 		-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 33% 98%, 0 100%);
 		clip-path: polygon(0 0, 100% 0, 100% 100%, 33% 98%, 0 100%);
 	}
-	.summary section:nth-child(2) {
+	.resumen section:nth-child(2) {
 		margin-top: 200px;
 	}
-	.summary section {
+	.resumen section {
 		margin-top: 130px;
 		margin-bottom: 0px;
 	}
-	.summary section img {
+	.resumen section img {
 		position: absolute;
 		left: 50%;
 		top: 0;
@@ -261,43 +261,43 @@ body {
 		height: 250px;
 		transform: translate(-80%,-80%);
 	}
-	.summary section img.two {
+	.resumen section img.two {
 		transform: translate(0%,-67%);
 	}
-	.summary section img.three {
+	.resumen section img.three {
 		transform: translate(-80%,-63%);
 	}
-	.summary section:nth-child(even) {
+	.resumen section:nth-child(even) {
 	}
 }
 @media (max-width: 568px)
 {
-	.summary {
+	.resumen {
 		font-size: 16px;
 	}
-	.summary section img {
+	.resumen section img {
 		width: 150px;
 		height: 150px;
 	}
-	.summary section:nth-child(2) {
+	.resumen section:nth-child(2) {
 		margin-top: 160px;
 	}
-	.summary section img {
+	.resumen section img {
 		transform: translate(-50%,-80%);
 	}
-	.summary section img.two {
+	.resumen section img.two {
 		transform: translate(-50%,-67%);
 	}
-	.summary section img.three {
+	.resumen section img.three {
 		transform: translate(-50%,-63%);
 	}
 }
 
-.portfolio {
+.niveles {
 	padding: 75px 0;
 	/*background: var(--black-blue);*/
 }
-.portfolio .section-title {
+.niveles .section-title {
 	margin: 0 10vw 50px 10vw;
 	color: var(--dark-blue);
 }
@@ -373,10 +373,10 @@ body {
 		width: 50px;
 		height: 50px;
 	}
-	.summary .section-title {
+	.resumen .section-title {
 		margin-bottom: 30px;
 	}
-	.portfolio .section-title {
+	.niveles .section-title {
 		width: 80%;
 	}
 	.section-title {

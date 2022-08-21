@@ -4,14 +4,14 @@ var currentPage = "none";
 
 var projects = [
 	{
-		name: "Scheduling",
-		desc: "Scheduling and Payroll Software",
-		techstack: ["Laravel", "Vue", "Semantic UI"],
+		name: "Nivel I",
+		desc: "Introducción básica a la programación",
+		techstack: ["Variables", "Operadores", "Condicionales"],
 	},
 	{
-		name: "ClerksHub",
-		desc: "Collection of Sport Tools for Clerking.",
-		techstack: ["HTML5", "Fuse Js"],
+		name: "Nivel II",
+		desc: "Programación avanzada en la web",
+		techstack: ["API", "Front-Back"],
 	},
 ];
 
