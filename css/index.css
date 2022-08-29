@@ -4,7 +4,9 @@ body {
 	color: var(--text);
 	scroll-behavior: smooth;
 }
-
+.altFont {
+	font-family: "Times New Roman" !important;
+}
 #loading {
 	z-index: 999;
   	position: absolute;
@@ -420,7 +422,7 @@ body {
 	flex-direction: row;
 
 	padding: 0 5vw;
-	perspective: 1800px;
+	/*perspective: 1800px;*/
 }
 .contact-form > div {
 	display: flex;
@@ -430,7 +432,7 @@ body {
 	position: relative;
 	box-shadow: 5px 5px 10px #00000044;
 	flex: 1;
-	transition: all .5s ease-in-out;
+	/*transition: all .5s ease-in-out;*/
 	opacity: 0;
 }
 .active-section .contact-form > div {
@@ -443,12 +445,12 @@ body {
 	transform: rotateY(0);
 }
 .contact-form > div:first-child {
-	transform: rotateY(93deg);
+	/*transform: rotateY(93deg);*/
 	border-radius: 5px 0 0 5px;
 	transform-origin: right center;
 }
 .contact-form > div:last-child {
-	transform: rotateY(-87deg);
+	/*transform: rotateY(-87deg);*/
 	border-radius: 0 5px 5px 0;
 	transform-origin: left center;
 }
@@ -581,7 +583,7 @@ body {
 		padding: 15px 20px;
 	}
 	.contact-form .desc ul li {
-		font-size: 20px;
+		font-size: 18px;
 		margin-bottom: 20px;
 		border-left: 3px solid var(--light-blue);
 		padding-left: 10px;
