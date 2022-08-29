@@ -91,7 +91,8 @@ body {
 }
 .content {
 	background: transparent;
-	background: url(../img/bg-pattern.jpg) no-repeat center center fixed;
+	/*background: url(../img/qqqqqqqqqqqq.jpg) no-repeat center center fixed;*/
+	background: linear-gradient(90deg, #1e4548, #120d19);
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -435,24 +436,37 @@ body {
 	/*transition: all .5s ease-in-out;*/
 	opacity: 0;
 }
-.active-section .contact-form > div {
+/*.active-section .contact-form > div {
+	opacity: 1;
+}*/
+
+.contact-form > div {
 	opacity: 1;
 }
-.active-section .contact-form > div:first-child {
+.contact-form > div:first-child {
+	transform: rotateY(0);
+}
+.contact-form > div:last-child {
+	transform: rotateY(0);
+}
+/*.contact-form > div {
+	opacity: 1 !important;
+}*/
+/*.active-section .contact-form > div:first-child {
 	transform: rotateY(0);
 }
 .active-section .contact-form > div:last-child {
 	transform: rotateY(0);
-}
+}*/
 .contact-form > div:first-child {
 	/*transform: rotateY(93deg);*/
 	border-radius: 5px 0 0 5px;
-	transform-origin: right center;
+	/*transform-origin: right center;*/
 }
 .contact-form > div:last-child {
 	/*transform: rotateY(-87deg);*/
 	border-radius: 0 5px 5px 0;
-	transform-origin: left center;
+	/*transform-origin: left center;*/
 }
 .contact-form .inputs {
 	justify-content: space-around;
@@ -486,7 +500,7 @@ body {
 	color: var(--orange);
 }
 .contact-form .desc {
-	background: url(../img/bg-pattern.jpg) no-repeat center center fixed;
+	background: url(../img/wp770761.jpg) no-repeat center center fixed;
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -509,7 +523,7 @@ body {
 	margin-bottom: 20px;
 	border-left: 3px solid var(--light-blue);
 	padding-left: 20px;
-	transition: .2s all linear;
+	/*transition: .2s all linear;*/
 }
 .contact-form .desc ul li.touch-active ,
 .contact-form .desc ul li:hover {
