@@ -579,14 +579,14 @@ body {
 	.contact-form .desc ul li {
 		font-size: 18px;
 	}
-	.contact-form > div:first-child {
+	/*.contact-form > div:first-child {
 		transform: rotateX(-93deg);
 		transform-origin: bottom center;
 	}
 	.contact-form > div:last-child {
 		transform: rotateX(+87deg);
 		transform-origin: top center;
-	}
+	}*/
 }
 @media (max-width: 576px)
 {
@@ -700,7 +700,11 @@ footer .socialmedia a:hover {
 }
 @media (max-width: 992px)
 {
+	footer .menu {
+		padding-top: 120px;
+	}
 	footer a.cv {
+		max-height: 120px;
 		top: 0;
 		font-size: 50px;
 	}
