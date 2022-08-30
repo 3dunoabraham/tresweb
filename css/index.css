@@ -296,11 +296,11 @@ body {
 	}
 }
 
-.clases {
+.niveles {
 	padding: 75px 0;
 	/*background: var(--black-blue);*/
 }
-.clases .section-title {
+.niveles .section-title {
 	margin: 0 10vw 50px 10vw;
 	color: var(--dark-blue);
 }
@@ -379,7 +379,7 @@ body {
 	.introduccion .section-title {
 		margin-bottom: 30px;
 	}
-	.clases .section-title {
+	.niveles .section-title {
 		width: 80%;
 	}
 	.section-title {
