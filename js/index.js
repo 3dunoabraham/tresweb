@@ -4,22 +4,22 @@ var currentPage = "none";
 
 var projects = [
 	{
-		name: "Nivel I",
+		name: "Clase I",
 		desc: "Introducción básica a la programación",
 		techstack: ["HTML + CSS",  "Javascript", "Variables", "Operadores", "Condicionales"],
 	},
 	{
-		name: "Nivel II",
+		name: "Clase II",
 		desc: "Programación avanzada en la web",
-		techstack: ["API", "Front-Back", "Git", "Frameworks", "Servidores"],
+		techstack: ["API", "Front-End", "Back-End", "Frameworks", "Git", "Servidores"],
 	},
 	{
-		name: "Nivel III",
+		name: "Clase III",
 		desc: "Introducción básica a la blockchain",
 		techstack: ["Blockchain", "Web3", "Ethereum", "Wallets", "Servidores"],
 	},
 	{
-		name: "Nivel VI",
+		name: "Clase VI",
 		desc: "Programación avanzada en la web en la blockchain",
 		techstack: ["API", "DApp", "Solidity", "Token", "NFT"],
 	},
