@@ -147,7 +147,7 @@ body {
 .active-section .section-title {
 	opacity: 1;
 }
-.resumen {
+.introduccion {
 	border-top: 5px solid var(--light-blue);
 	font-size: 30px;
 	padding: 75px 10vw;
@@ -158,7 +158,7 @@ body {
 	clip-path: polygon(0 0, 100% 0, 100% 100%, 33% 95%, 0 100%);
 }
 
-.resumen section {
+.introduccion section {
 	position: relative;
 	display: flex;
 	justify-content: center;
@@ -177,7 +177,7 @@ body {
 	transform: translateX(25%);
 	opacity: 0;
 }
-.resumen section:nth-child(even) {
+.introduccion section:nth-child(even) {
 	border-radius: 0 5px 100px 0;
 	background: linear-gradient(to right, var(--dark-blue), var(--light-blue));
 	transform: translateX(-25%);
@@ -185,35 +185,35 @@ body {
 	border-right: 1px solid var(--orange-dark);
 	border-left: 0px solid var(--orange-dark);
 }
-.resumen.active-section section {
+.introduccion.active-section section {
 	transform: translateX(0);
 	opacity: 1;
 }
-.resumen .section-title {
+.introduccion .section-title {
 	/*margin: 0 auto;*/
 }
 
-.resumen section * {
+.introduccion section * {
 	transition: all .3s ease-in-out;
 }
-.resumen section.touch-active ,
-.resumen section:hover {
+.introduccion section.touch-active ,
+.introduccion section:hover {
 	border-color: var(--orange)
 	/*box-shadow: 0 40px 20px -40px #000000;*/
 }
-.resumen section.touch-active img ,
-.resumen section:hover img {
+.introduccion section.touch-active img ,
+.introduccion section:hover img {
 	opacity: .8;
 }
-.resumen section.touch-active b ,
-.resumen section:hover b {
+.introduccion section.touch-active b ,
+.introduccion section:hover b {
 	color: var(--orange);
 	text-shadow: 0 0 5px var(--orange-strong);
 }
-.resumen section p {
+.introduccion section p {
 	flex: 1;
 }
-.resumen section img {
+.introduccion section img {
 	padding: 20px 50px;
 	/*filter: invert(1);*/
 	opacity: .25;
@@ -223,18 +223,18 @@ body {
 
 @media (max-width: 992px)
 {
-	.resumen h1 {
+	.introduccion h1 {
 		height: unset;
 	}
-	.resumen {
+	.introduccion {
 		font-size: 20px;
 	}
-	.resumen section {
+	.introduccion section {
 		flex-direction: column;
 		margin-bottom: 25px;		
 		padding-top: 15px
 	}
-	.resumen section img {
+	.introduccion section img {
 		left: 10%;
 		width: 80%;
 		height: auto;
@@ -242,21 +242,21 @@ body {
 }
 @media (max-width: 992px)
 {
-	.resumen {
+	.introduccion {
 		padding: 25px 10vw;
 		padding-bottom: 125px;
 
 		-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 33% 98%, 0 100%);
 		clip-path: polygon(0 0, 100% 0, 100% 100%, 33% 98%, 0 100%);
 	}
-	.resumen section:nth-child(2) {
+	.introduccion section:nth-child(2) {
 		margin-top: 200px;
 	}
-	.resumen section {
+	.introduccion section {
 		margin-top: 130px;
 		margin-bottom: 0px;
 	}
-	.resumen section img {
+	.introduccion section img {
 		position: absolute;
 		left: 50%;
 		top: 0;
@@ -264,43 +264,43 @@ body {
 		height: 250px;
 		transform: translate(-80%,-80%);
 	}
-	.resumen section img.two {
+	.introduccion section img.two {
 		transform: translate(0%,-67%);
 	}
-	.resumen section img.three {
+	.introduccion section img.three {
 		transform: translate(-80%,-63%);
 	}
-	.resumen section:nth-child(even) {
+	.introduccion section:nth-child(even) {
 	}
 }
 @media (max-width: 568px)
 {
-	.resumen {
+	.introduccion {
 		font-size: 16px;
 	}
-	.resumen section img {
+	.introduccion section img {
 		width: 150px;
 		height: 150px;
 	}
-	.resumen section:nth-child(2) {
+	.introduccion section:nth-child(2) {
 		margin-top: 160px;
 	}
-	.resumen section img {
+	.introduccion section img {
 		transform: translate(-50%,-80%);
 	}
-	.resumen section img.two {
+	.introduccion section img.two {
 		transform: translate(-50%,-67%);
 	}
-	.resumen section img.three {
+	.introduccion section img.three {
 		transform: translate(-50%,-63%);
 	}
 }
 
-.niveles {
+.clases {
 	padding: 75px 0;
 	/*background: var(--black-blue);*/
 }
-.niveles .section-title {
+.clases .section-title {
 	margin: 0 10vw 50px 10vw;
 	color: var(--dark-blue);
 }
@@ -376,10 +376,10 @@ body {
 		width: 50px;
 		height: 50px;
 	}
-	.resumen .section-title {
+	.introduccion .section-title {
 		margin-bottom: 30px;
 	}
-	.niveles .section-title {
+	.clases .section-title {
 		width: 80%;
 	}
 	.section-title {

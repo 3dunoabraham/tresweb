@@ -9,6 +9,15 @@
 
   	<link rel="stylesheet" type="text/css" href="css/template.css">
   	<style type="text/css">
+
+            @media only screen and (max-height: 577px)
+            {
+                .mainlogoimage {
+                    height: 117px !important;
+                    width: 253px !important;
+                }
+            }
+
 	  	.txshadow {
 	  		text-shadow: 2px 2px 4px #00000077
 	  	}
@@ -79,7 +88,8 @@
 		.sidebar .link i {
 			transition: all .25s linear;
 			font-size: 48px;
-			color: var(--light-blue);
+			color: #38aaa1;
+			/*color: var(--light-blue);*/
 			text-shadow: 3px 3px 4px #000000aa,
 			0px 0px var(--light-blue),
 			0px 0px var(--light-blue),
@@ -280,11 +290,11 @@
 	</li>
 	<li class="divider"><i class="fas fa-circle"></i></li>
 	<li>
-		<a data-section="resumen" href="#resumen">Resumen</a>
+		<a data-section="introduccion" href="#introduccion">Introducción</a>
 	</li>
 	<li class="divider"><i class="fas fa-circle"></i></li>
 	<li>
-		<a data-section="niveles" href="#niveles">Niveles</a>
+		<a data-section="clases" href="#clases">Clases</a>
 	</li>
 	<li class="divider"><i class="fas fa-circle"></i></li>
 	<li>
@@ -313,14 +323,18 @@
 		</a>
 	</div>
 	<div class="landing">
-		<img class="duno" src="img/duno.png" alt="duno-logo">
-		<span class="sub-title "><b class="txshadow">Programacion en la Blockchain desde 0</b></span>
+		<img class="duno mainlogoimage" src="img/duno.png" alt="duno-logo">
+		<p style="font-size: 1.75em" class=" "><b class="txshadow">
+			Programación en la <br> 
+			<span class="sub-title"><b>Blockchain</b></span>
+		 	desde 0</b>
+		 </p>
 		<ul class="menu">
 			<li>
-				<a href="#resumen"><span data-text="R">R</span>esumen</a>
+				<a href="#introduccion"><span data-text="I">I</span>ntroducción</a>
 			</li>
 			<li>
-				<a href="#niveles"><span data-text="N">N</span>iveles</a>
+				<a href="#clases"><span data-text="C">C</span>lases</a>
 			</li>
 			<li>
 				<a href="#contact"><span data-text="C">C</span>ontacto</a>
@@ -335,8 +349,8 @@
 
 <div class="content" display="none">
 
-	<div class="resumen section" id="resumen">
-		<h1 class="section-title">Resumen</h1>
+	<div class="introduccion section" id="introduccion">
+		<h1 class="section-title">Introducción</h1>
 		<section class="mobile-touch">
 			<p>¿Por qué saber programar tiene tanta importancia? La programación<i>va mas allá</i> que cualquier idioma, pues se trata de aprender a <b>solucionar problemas</b> usando lógica e ingenio.</p>
 			<img class="one" src="img/full-stack.png" alt="full-stack">
@@ -346,13 +360,13 @@
 			<p>Aprende el arte de <b>crear soluciones</b> desde 0 usando paradigmas complejos con bases estructuradas creativamente.</p>
 		</section>
 		<section class="mobile-touch">
-			<p>Completa los <b>4 niveles</b> para ampliar tu conocimiento general.</p>
+			<p>Completa los <b>4 Clases</b> para ampliar tu conocimiento general.</p>
 			<img class="three" src="img/design.png" alt="graphic-design">
 		</section>
 	</div>
 
-	<div class="niveles section" id="niveles">
-		<h1 class="section-title">Niveles</h1>
+	<div class="clases section" id="clases">
+		<h1 class="section-title">Clases</h1>
 		<div class="project">
 			<div class="desktop-button prev-button nav-button">
 				<img class="arrow prev" src="img/chevron.png" alt="navigation">
@@ -440,7 +454,7 @@
 					</li> -->
 					<li class="mobile-touch txshadow">
 						Curso Integral de programación con
-						<span class="color-orange"><b>4 niveles</b></span>
+						<span class="color-orange"><b>4 clases</b></span>
 						de complejidad
 					</li>
 					<li class="mobile-touch txshadow">
@@ -493,10 +507,10 @@
 				<a href="#home">Inicio</a>
 			</li>
 			<li>
-				<a href="#resumen">Resumen</a>
+				<a href="#introduccion">Introducción</a>
 			</li>
 			<li>
-				<a href="#niveles">Niveles</a>
+				<a href="#clases">clases</a>
 			</li>
 			<li>
 				<a href="#contact">Contacto</a>
